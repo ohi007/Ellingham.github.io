@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: gray;
+}
+.nav-wraper{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 20%;
+}
+.navber{
+    width: 80%;
+    text-align: end;
+}
+.navber li{
+    display: inline-block;
+    margin: 0 2rem;
+    
+}
+.navber li a{
+    text-decoration: none;
+    display: block;
+}
